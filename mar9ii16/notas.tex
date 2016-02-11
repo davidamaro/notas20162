@@ -1,4 +1,5 @@
-\section{Física nuclear y subnuclear}
+## Física nuclear y subnuclear
+
 Lo más importante fue el hecho de que la energía se le
 agrega un término complejo, $-i \frac{1}{2} \Gamma$, para
 que la probabilidad sea, $\vert \psi(t) \vert^2 = e^{-\Gamma
@@ -34,13 +35,12 @@ sólo la mitad de materia}. La solución a la ecuación de
 decaimiento es $N_0 \exp(-t \lambda)$ por lo que $t_{1/2} =
 \frac{\log 2}{\lambda}$. También definió la \textbf{vida
 media \textsl{promedio}} como:
-\[
+$$
   \tau = \frac{\int N(t) t\, dt}{\int N(t) \, dt} =
   \frac{1}{\lambda}.
-\]
+$$
 
-\subsection{Ecuación de Schrödinger y distribución de
-Breit-Wigner}
+### Ecuación de Schrödinger y distribución de Breit-Wigner
 
 La ecuación de Schrödinger es $-i\hbar\partial_t \psi = H
 \psi$, cuya solución es $\psi_0 \exp(-E t /\hbar)$. La
@@ -52,34 +52,42 @@ E_0 - i\frac{1}{2} \Gamma$. Esto resulta en que ahora $\vert
 ahora sí queda bajo la situación de que $\Gamma = \lambda
 \hbar$.
 
-\subsection{Transformada de Fourier}
+### Transformada de Fourier
 
 La transformada de Fourier está definida así:
 
+$$
 \begin{align*}
   f(t) &= \frac{1}{\sqrt{2\pi}} \int d\omega \, g(\omega)
   \exp(-i\omega t),\\
   g(\omega) &= \frac{1}{\sqrt{2\pi}} \int dt \, f(t)
   \exp(i\omega t).
 \end{align*}
+$$
+
 Le aplicamos esto a $\psi(t) \to f(t)$ para obtener
-\[g(\omega) = \psi_0 \frac{1}{\sqrt{2\pi}} \int dt\,\psi_0
+$$
+g(\omega) = \psi_0 \frac{1}{\sqrt{2\pi}} \int dt\,\psi_0
 \exp\Bigl(i(\omega - E_0/\hbar)\Bigr)t \exp(-\Gamma
 t/2\hbar).
-\]
+$$
+
 Dado que es sencilla la integral podemos ignorar que se
 trata de una integral en el plano complejo y hacerla
 considerando a $i$ como un numerito más. Por lo que obtener
 $g(\omega)$ es inmediato. Para obtener la probabilidad ahora
 se usa que $P(E=\hbar\omega) = \vert g(\omega)\vert^2$ por
 un factor de normalización:
-%% Se hace la integral y el cociente se multiplica y divide
-%% por i hbarra. Diferimos en un signo. Luego recordamos la
-%% expresión para el inverso de un número complejo y
-%% obtenemos parte de la expresión
-\[P(E) = \frac{\Gamma}{2\pi}\frac{1}{(E-E_0)^2 +
-(\Gamma/2)^2}.\] Este es la fórmula de
-\textbf{Breit-Wigner}. De ella podemos ver que el máximo se
+1. Se hace la integral y el cociente se multiplica y divide  por i hbarra.
+2. Diferimos en un signo. Luego recordamos la expresión para el inverso de un número complejo y
+obtenemos parte de la expresión
+
+$$
+P(E) = \frac{\Gamma}{2\pi}\frac{1}{(E-E_0)^2 +
+(\Gamma/2)^2}.$$
+
+Este es la fórmula de
+__Breit-Wigner__. De ella podemos ver que el máximo se
 alcanza en $E_0$ y que la mitad de la altura se alcanza para
 las energías $E_0 \pm \Gamma/2$, de ahí que $\Gamma$ se
 considerer la cintura.
@@ -88,7 +96,8 @@ Este distribución resultado nos permite calcular \emph{vidas
 medias} super pequeñas a partir de la distribución. % el
 % artículo de Breit-Wigner está bien loco
 
-\subsection{Ejercicio}
+### Ejercicio
+
 Consideramos el mesón $\rho$ que tiene $\Gamma = 150
 \mathrm{MeV}$. La vida media promedio está dada por $\tau =
 \hbar/\Gamma = \hbar c / \Gamma c$. El valor de $\hbar c =
@@ -99,12 +108,6 @@ calcula es la masa invariante o masa en reposo $E = mc^2$.
 
 Se escribió una tabla con los valores de vida media promedio
 y ancho.
-%%%%%%%%%%%%%%%%%%%%%%%%
-%fuente      vmp anchura
-%%%%%%%%%%%%%%%%%%%%%%%%
-%hadrónicos -23  100-200 MeV
-%em         -18  10-5 Mev=1.5 KeV
-%débil      -10
 
 |fuente|vida media promedio | anchura|
 |------|------------------- | -------|

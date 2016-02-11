@@ -3,7 +3,8 @@
 En la clase de medios vino el ayudante y platicó de las siguientes
 identidades:
 
-|Identidad                                                                              |
+|Identiad|
+|---|
 |$\varepsilon_{ijk} \varepsilon_{imn} = \delta_{jm}\delta_{kn} - \delta_{jn}\delta_{km}$|
 |$\delta_{ij}\delta_{kj} = \delta_{ik}$|
 
