@@ -1,7 +1,7 @@
-%==================
-%Bitácora travis ci
-%==================
-\section{Travis CI}
+# Notas jueves
+
+## Bitácora travis ci
+
 
 Se le da permiso de acceso a un usuario de github.
 Utilizando su interfaz se elige sincronizar un repositorio.
@@ -14,10 +14,8 @@ archivo de configuración.
 
 ¿Se puede evitar la elaboración del archivo configure?
 
-%=================================
-%Notas física nuclear y subnuclear
-%=================================
-\section{Física nuclear y subnuclear}
+
+## Física nuclear y subnuclear
 
 Habló de:
 
@@ -53,4 +51,3 @@ tener el mismo nivel ya que no cumplirían esto.
 
 Nos comentó que la forma de medir momento angular es
 utilizar un acoplamiento $\vec{b}\cdot\vec{L}$.
-

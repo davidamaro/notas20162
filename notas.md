@@ -1,5 +1,5 @@
-Nuclear y subnuclear.
-=====================
+## Nuclear y subnuclear.
+
 En 1897 Bequerel descubre que al dejar la placa de cierto
 material no había sol y lo guardó en su escritorio cuando lo
 sacó no se acostumbraba a revelar las placas de rayos X que
@@ -70,8 +70,7 @@ La masa se determina como $N(A,Z) = 2 M_p c^2 + N M_n c^2 -
 BE(A,A)$ con lo último la energía de amarre; en caso de ser
 cero no existe el núcleo.
 
-Notas FAMC
-==========
+## Notas FAMC
 
 Un atomo exótico se le cambia el protón por un muón que es
 más pesado, por lo que el neutron está más cerca.
