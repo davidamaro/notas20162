@@ -107,3 +107,10 @@ Por lo tanto, la sección eficaz es
 $$
 \frac{d\sigma}{d\Omaga}\vert_{R} = \vert f(\vartheta) \vert^2 = \frac{4m^2(Z_1Z_2 e^2)^2}{q^4}.
 $$
+
+El el número de partículas que cruzas la sección de área $dA$ que
+subtiende un ángulo sólido $d\Omega$. El flujo incidente es $\hbar
+k/m$.
+
+La parte de dispersión, está [aquí](http://www.nucleares.unam.mx/~bijker/subnuclear/Extra02.pdf)
+__Nota__. Sigo sin ver por qué se va el término $i^l$ en la expresión para $f(\vartheta)$.
